@@ -14,6 +14,7 @@ chmod +x myip
 
 ## Use
 
-```
-MYIP=./myip ./main_loop.sh ~/.venvs/huawei-lte-api/bin/python ./reconnect_dialup.py http://admin:PASSWORD@192.168.8.1/
+```bash
+MYIP=./myip ./main_loop.sh \
+	~/.venvs/huawei-lte-api/bin/python ./reconnect_dialup.py http://admin:PASSWORD@192.168.8.1/
 ```
